@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+       body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      border: 2px solid black;
+      background-color: #000000;
+    }
+    input {
+      width: 220px;
+      padding: 10px;
+      margin: 5px;
+    }
+    button {
+      width: 50px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+</style>
+<body>
+    <input type="text" id="enter">
+
+    <br>
+    <button onclick="press('1')">1</button>
+    <button onclick="press('2')">2</button>
+    <button onclick="press('3')">3</button>
+    <button onclick="press('+')">+</button>
+    <br>
+
+
+    <button onclick="press('4')">4</button>
+    <button onclick="press('5')">5</button>
+    <button onclick="press('6')">6</button>
+    <button onclick="press('-')">-</button>
+
+
+    <br>
+    <button onclick="press('7')">7</button>
+    <button onclick="press('8')">8</button>
+    <button onclick="press('9')">9</button>
+    <button onclick="press('*')">*</button>
+
+    <br>
+
+    <button onclick="aysh()">C</button>
+    <button onclick="press('0')">0</button>
+    <button onclick="result()">=</button>
+    <button onclick="press('/')">/</button>
+
+    <script>
+    function press(value) {
+        document.getElementById("enter").value += value;
+        console.log(value);
+    }
+   
+
+    function aysh() {
+        document.getElementById("enter").value = "";
+        
+    }
+    function result() {
+        try{
+            document.getElementById("enter").value = eval(  document.getElementById("enter").value);
+        }
+        catch (error) {
+            document.getElementById('enter').value = 'Error';
+           
+        }
+        
+    }
+
+    </script>
+</body>
+</html>

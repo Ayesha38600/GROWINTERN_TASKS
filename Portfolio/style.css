@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+/* font-family: "Zefani Stencil"; */
+font-family: 'Manrope', sans-serif;
+
+background-color: black;
+color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 20px;
+    align-items: center;
+}
+
+nav h1{
+    color: rgb(241, 227, 227);
+    font-weight: 900;
+    /* letter-spacing: 2px; */
+}
+
+ul{
+    display: flex;
+   
+}
+li{
+    list-style: none;
+    margin-inline: 10px;
+}
+
+a{
+    text-decoration: none; color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.main h1{
+    font-family: "Zefani Stencil";
+    font-size: 50px;
+}
+
+.main .left{
+    margin-top: 120px;
+padding: 40px;
+width: 600px;
+}
+.left p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.btn button{
+    margin-top: 20px;
+    width: 170px;
+    height: 20px;
+    padding: 12px 12px 29px 29px;
+ 
+    /* font-size: 12px; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.right{
+    height: 700px;
+
+}
+.right img{
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+    margin-left: 120px;
+}
+
+.head{
+    text-align: center;
+    font-size: 21px;
+}
+
+.do{
+    padding: 30px;
+}
+.domain{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+}
+
+.doright{
+    padding: 30px;
+    text-align: justify;
+}
+
+.doright p{
+    padding: 20px; text-align: justify;
+}
+
+.doleft img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+.graph-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fffafa;
+    padding: 20px;
+    box-shadow: 0 0 40px white;
+    border-radius: 5px;
+}
+
+.skill {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000000;
+    width: 60%; 
+}
+
+.small{
+    display: flex;
+    justify-content: center;
+
+}
+.mini{
+    margin-inline: 20px;
+
+
+}
+.small h2{
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.small img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.download {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download button{
+   
+    width: 170px;
+    height: 20px;
+    padding: 12px 12px 29px 29px;
+ 
+    /* font-size: 12px; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+.contact{
+    margin-top: 70px;
+}
+
+.containerr {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    margin: auto;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.containerr button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containerr button:hover {
+    background-color: #45a049;
+}
+
+.footer{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
